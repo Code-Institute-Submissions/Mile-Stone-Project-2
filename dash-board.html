@@ -8,21 +8,46 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <script type="text/javascript" src="assets/js/jquery-3.2.1.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>National Beer Stats & Facts</title>
 </head>
 
 <body>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-3"><a href="index.html" class="hvr-sweep-to-bottom">Home</a></div>
-            <div class="col-md-3"><a href="dash-board.html" class="hvr-sweep-to-bottom">Dash Board</a></div>
-            <div class="col-md-3"><a href="fact-generator.html" class="hvr-sweep-to-bottom">Fact Generator</a></div>
-            <div class="col-md-3"><a href="brewery-directory.html" class="hvr-sweep-to-bottom">Brewery</a></div>
+    <!-- Navigation -->
+    <div class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+            <!-- below is the burger drop down icon -->
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <!-- below will collapse when on mobile -->
+            <div class="collapse navbar-collapse navHeaderCollapse ">
+                <ul class="nav navbar-nav">
+                    <li class="page-links"><a href="index.html">Home</a></li>
+                    <li class="page-links"><a href="dash-board.html">European Stats</a></li>
+                    <li class="page-links"><a href="fact-generator.html">Fact Generator</a></li>
+                    <li class="page-links"><a href="brewery-directory.html">Brewery Directory</a></li>
+                </ul>
+            </div>
         </div>
     </div>
-    <h1>dash board</h1>
+    <!-- below are the divs for the graphs -->
+    <div class="container-fluid graph-conatiner">
+        <div class="row">
+            <div class="col-xs-12 col-md-12 graph">
+                <div id="volume-by-country"></div>
+            </div>
+            <div class="col-xs-12 col-md-12 graph">
+                <div id="sales-growth"></div>
+            </div>
+            <div class="col-xs-12 col-md-12 graph">
+                <div id="active-breweries"></div>
+            </div>
+        </div>
+    </div>
     <script type="text/javascript" src="assets/js/scripts.js"></script>
 </body>
 
