@@ -26,10 +26,10 @@ a {
     background-color: transparent;
     background-image: none;
     border: 1.5px solid transparent;
-        border-top-color: transparent;
-        border-right-color: transparent;
-        border-bottom-color: transparent;
-        border-left-color: transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
     border-radius: 4px;
 
 }
@@ -61,10 +61,16 @@ ul {
 /*-- index page --*/
 
 .index-logo {
+    font-family: "Dosis";
+    text-align: center;
+    font-size: 70px;
+    text-transform: capitalize;
+    color: #d4ac0d;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 25px;
-    width: 80%;
+    padding: 0px;
 }
 
 .logo {
@@ -74,38 +80,39 @@ ul {
     padding: 10px;
     border: 1px solid #d4ac0d;
     border-radius: 50%;
-}
-
-.title-container {
-    font-family: "Dosis";
-    text-align: center;
-    font-size: 70px;
-    text-transform: capitalize;
-    color: #d4ac0d;
-    border-radius: 50%;
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5px;
-    padding: 0px;
+    width: 50%;
 }
 
 /*-- data dash board --*/
 
-.graph-conatiner {
+.graph-container {
     width: 90%;
     padding: 0px;
     margin-left: auto;
     margin-right: auto;
 }
 
+.graph-title {
+    font-family: "Dosis";
+    color: #d4ac0d;
+    text-decoration: underline;
+}
+
 .graph {
-    width: 50%;
-    height: 140px;
-    margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
-    border: 2px solid #fafafa;
-    border-radius: 5px;
-    padding: 0;
+}
+
+/*-- Media Queries --*/
+
+@media (max-width: 768px) {
+    .logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        border: 1px solid #d4ac0d;
+        border-radius: 50%;
+        width: 90%;
+    }
 }
