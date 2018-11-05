@@ -1,23 +1,29 @@
 queue()
-    .defer(d3.csv, "data/projectTwoBeerNumbers.csv")
+    .defer(d3.json, "data/projectData.json")
     .await(makeGraphs);
-
 
 function makeGraphs(error, countryData) {
     var ndx = crossfilter(countryData);
 
     countryData.forEach(function(d) {
         d.year = parseInt(d.year);
-        d.country = parseInt(d["country"]);
-        d.active_breweries = parseInt(d["active.breweries"]);
+        d.country = parseInt(d.country);
+        d.active_breweries = parseInt(d.active_breweries);
         d.volume = parseInt(d.volume);
     })
 
-    show_year_selector(ndx);
+    //var country_dim = ndx.dimension(dc.pluck('country'));
+    var year_group = ndx.dimension(dc.pluck('year'));
+    
+    var groupingData = year_group.dim().reduceSum(function(d){
+        if (d.country === 'year') {
+            return +d.country;
+        } else {
+            return 0;
+        }
+    });
 
-    show_volume_by_country(ndx);
-    //sales_growth_by_country(ndx);
-    //number_of_active_breweries(ndx);
+    show_year_selector(ndx);
     
     dc.renderAll();
 }
@@ -32,21 +38,11 @@ function show_year_selector(ndx) {
 }
 
 
-function show_volume_by_country(ndx) {
-    var dim = ndx.dimension(dc.pluck('volume'));
-    var group = dim.group();
 
-    dc.barChart("#volume-country")
-        .width(350)
-        .height(250)
-        .margins({ top: 10, right: 50, bottom: 30, left: 50 })
-        .dimension(dim)
-        .group(group)
-        .transitionDuration(500)
-        .x(d3.scale.ordinal())
-        .xUnits(dc.units.ordinal)
-        .xAxisLabel("Country")
-        .yAxisLabel("volume")
-        .yAxis().ticks(20);
-}
+
+
+
+
+
+
 

@@ -1,0 +1,1304 @@
+[
+  {
+    "year": 2010,
+    "country": "Austria",
+    "active-breweries": 172,
+    "volume": 8878
+  },
+  {
+    "year": 2011,
+    "country": "Austria",
+    "active-breweries": 170,
+    "volume": 9105
+  },
+  {
+    "year": 2012,
+    "country": "Austria",
+    "active-breweries": 173,
+    "volume": 9110
+  },
+  {
+    "year": 2013,
+    "country": "Austria",
+    "active-breweries": 194,
+    "volume": 9005
+  },
+  {
+    "year": 2014,
+    "country": "Austria",
+    "active-breweries": 198,
+    "volume": 8885
+  },
+  {
+    "year": 2015,
+    "country": "Austria",
+    "active-breweries": 214,
+    "volume": 8977
+  },
+  {
+    "year": 2016,
+    "country": "Austria",
+    "active-breweries": 235,
+    "volume": 9030
+  },
+  {
+    "year": 2010,
+    "country": "Belgium",
+    "active-breweries": 135,
+    "volume": 8439
+  },
+  {
+    "year": 2011,
+    "country": "Belgium",
+    "active-breweries": 123,
+    "volume": 8574
+  },
+  {
+    "year": 2012,
+    "country": "Belgium",
+    "active-breweries": 150,
+    "volume": 8228
+  },
+  {
+    "year": 2013,
+    "country": "Belgium",
+    "active-breweries": 160,
+    "volume": 8092
+  },
+  {
+    "year": 2014,
+    "country": "Belgium",
+    "active-breweries": 168,
+    "volume": 8095
+  },
+  {
+    "year": 2015,
+    "country": "Belgium",
+    "active-breweries": 199,
+    "volume": 7951
+  },
+  {
+    "year": 2016,
+    "country": "Belgium",
+    "active-breweries": 224,
+    "volume": 7689
+  },
+  {
+    "year": 2010,
+    "country": "Bulgaria",
+    "active-breweries": 8,
+    "volume": 4891
+  },
+  {
+    "year": 2011,
+    "country": "Bulgaria",
+    "active-breweries": 13,
+    "volume": 5100
+  },
+  {
+    "year": 2012,
+    "country": "Bulgaria",
+    "active-breweries": 13,
+    "volume": 5404
+  },
+  {
+    "year": 2013,
+    "country": "Bulgaria",
+    "active-breweries": 13,
+    "volume": 5462
+  },
+  {
+    "year": 2014,
+    "country": "Bulgaria",
+    "active-breweries": 16,
+    "volume": 5230
+  },
+  {
+    "year": 2015,
+    "country": "Bulgaria",
+    "active-breweries": 18,
+    "volume": 5300
+  },
+  {
+    "year": 2016,
+    "country": "Bulgaria",
+    "active-breweries": 17,
+    "volume": 5500
+  },
+  {
+    "year": 2010,
+    "country": "Croatia",
+    "active-breweries": 7,
+    "volume": 3321
+  },
+  {
+    "year": 2011,
+    "country": "Croatia",
+    "active-breweries": 7,
+    "volume": 3547
+  },
+  {
+    "year": 2012,
+    "country": "Croatia",
+    "active-breweries": 6,
+    "volume": 3411
+  },
+  {
+    "year": 2013,
+    "country": "Croatia",
+    "active-breweries": 6,
+    "volume": 3286
+  },
+  {
+    "year": 2014,
+    "country": "Croatia",
+    "active-breweries": 6,
+    "volume": 3414
+  },
+  {
+    "year": 2015,
+    "country": "Croatia",
+    "active-breweries": 6,
+    "volume": 3322
+  },
+  {
+    "year": 2016,
+    "country": "Croatia",
+    "active-breweries": 6,
+    "volume": 3225
+  },
+  {
+    "year": 2010,
+    "country": "Cyprus",
+    "active-breweries": 2,
+    "volume": 519
+  },
+  {
+    "year": 2011,
+    "country": "Cyprus",
+    "active-breweries": 2,
+    "volume": 456
+  },
+  {
+    "year": 2012,
+    "country": "Cyprus",
+    "active-breweries": 2,
+    "volume": 471
+  },
+  {
+    "year": 2013,
+    "country": "Cyprus",
+    "active-breweries": 2,
+    "volume": 480
+  },
+  {
+    "year": 2014,
+    "country": "Cyprus",
+    "active-breweries": 4,
+    "volume": 425
+  },
+  {
+    "year": 2015,
+    "country": "Cyprus",
+    "active-breweries": 4,
+    "volume": 457
+  },
+  {
+    "year": 2016,
+    "country": "Cyprus",
+    "active-breweries": 3,
+    "volume": 468
+  },
+  {
+    "year": 2010,
+    "country": "Czech-Republic",
+    "active-breweries": 151,
+    "volume": 15570
+  },
+  {
+    "year": 2011,
+    "country": "Czech-Republic",
+    "active-breweries": 191,
+    "volume": 15503
+  },
+  {
+    "year": 2012,
+    "country": "Czech-Republic",
+    "active-breweries": 213,
+    "volume": 15960
+  },
+  {
+    "year": 2013,
+    "country": "Czech-Republic",
+    "active-breweries": 308,
+    "volume": 15798
+  },
+  {
+    "year": 2014,
+    "country": "Czech-Republic",
+    "active-breweries": 338,
+    "volume": 15768
+  },
+  {
+    "year": 2015,
+    "country": "Czech-Republic",
+    "active-breweries": 390,
+    "volume": 15703
+  },
+  {
+    "year": 2016,
+    "country": "Czech-Republic",
+    "active-breweries": 398,
+    "volume": 15875
+  },
+  {
+    "year": 2010,
+    "country": "Denmark",
+    "active-breweries": 150,
+    "volume": 3586
+  },
+  {
+    "year": 2011,
+    "country": "Denmark",
+    "active-breweries": 150,
+    "volume": 3654
+  },
+  {
+    "year": 2012,
+    "country": "Denmark",
+    "active-breweries": 150,
+    "volume": 3437
+  },
+  {
+    "year": 2013,
+    "country": "Denmark",
+    "active-breweries": 150,
+    "volume": 3530
+  },
+  {
+    "year": 2014,
+    "country": "Denmark",
+    "active-breweries": 150,
+    "volume": 3650
+  },
+  {
+    "year": 2015,
+    "country": "Denmark",
+    "active-breweries": 150,
+    "volume": 3430
+  },
+  {
+    "year": 2016,
+    "country": "Denmark",
+    "active-breweries": 160,
+    "volume": 3580
+  },
+  {
+    "year": 2010,
+    "country": "Estonia",
+    "active-breweries": 6,
+    "volume": 1063
+  },
+  {
+    "year": 2011,
+    "country": "Estonia",
+    "active-breweries": 6,
+    "volume": 1020
+  },
+  {
+    "year": 2012,
+    "country": "Estonia",
+    "active-breweries": 7,
+    "volume": 1010
+  },
+  {
+    "year": 2013,
+    "country": "Estonia",
+    "active-breweries": 10,
+    "volume": 1020
+  },
+  {
+    "year": 2014,
+    "country": "Estonia",
+    "active-breweries": 15,
+    "volume": 931
+  },
+  {
+    "year": 2015,
+    "country": "Estonia",
+    "active-breweries": 20,
+    "volume": 900
+  },
+  {
+    "year": 2016,
+    "country": "Estonia",
+    "active-breweries": 33,
+    "volume": 888
+  },
+  {
+    "year": 2010,
+    "country": "Finland",
+    "active-breweries": 25,
+    "volume": 4443
+  },
+  {
+    "year": 2011,
+    "country": "Finland",
+    "active-breweries": 25,
+    "volume": 4551
+  },
+  {
+    "year": 2012,
+    "country": "Finland",
+    "active-breweries": 30,
+    "volume": 4286
+  },
+  {
+    "year": 2013,
+    "country": "Finland",
+    "active-breweries": 43,
+    "volume": 4337
+  },
+  {
+    "year": 2014,
+    "country": "Finland",
+    "active-breweries": 49,
+    "volume": 4244
+  },
+  {
+    "year": 2015,
+    "country": "Finland",
+    "active-breweries": 59,
+    "volume": 4209
+  },
+  {
+    "year": 2016,
+    "country": "Finland",
+    "active-breweries": 82,
+    "volume": 4208
+  },
+  {
+    "year": 2010,
+    "country": "France",
+    "active-breweries": 387,
+    "volume": 19730
+  },
+  {
+    "year": 2011,
+    "country": "France",
+    "active-breweries": 442,
+    "volume": 20000
+  },
+  {
+    "year": 2012,
+    "country": "France",
+    "active-breweries": 503,
+    "volume": 19941
+  },
+  {
+    "year": 2013,
+    "country": "France",
+    "active-breweries": 580,
+    "volume": 19421
+  },
+  {
+    "year": 2014,
+    "country": "France",
+    "active-breweries": 663,
+    "volume": 19956
+  },
+  {
+    "year": 2015,
+    "country": "France",
+    "active-breweries": 793,
+    "volume": 20600
+  },
+  {
+    "year": 2016,
+    "country": "France",
+    "active-breweries": 950,
+    "volume": 21290
+  },
+  {
+    "year": 2010,
+    "country": "Germany",
+    "active-breweries": 1333,
+    "volume": 87872
+  },
+  {
+    "year": 2011,
+    "country": "Germany",
+    "active-breweries": 1347,
+    "volume": 87655
+  },
+  {
+    "year": 2012,
+    "country": "Germany",
+    "active-breweries": 1340,
+    "volume": 86279
+  },
+  {
+    "year": 2013,
+    "country": "Germany",
+    "active-breweries": 1349,
+    "volume": 85888
+  },
+  {
+    "year": 2014,
+    "country": "Germany",
+    "active-breweries": 1352,
+    "volume": 86512
+  },
+  {
+    "year": 2015,
+    "country": "Germany",
+    "active-breweries": 1388,
+    "volume": 86018
+  },
+  {
+    "year": 2016,
+    "country": "Germany",
+    "active-breweries": 1408,
+    "volume": 85532
+  },
+  {
+    "year": 2010,
+    "country": "Greece",
+    "active-breweries": 11,
+    "volume": 4092
+  },
+  {
+    "year": 2011,
+    "country": "Greece",
+    "active-breweries": 17,
+    "volume": 4092
+  },
+  {
+    "year": 2012,
+    "country": "Greece",
+    "active-breweries": 18,
+    "volume": 3945
+  },
+  {
+    "year": 2013,
+    "country": "Greece",
+    "active-breweries": 20,
+    "volume": 3916
+  },
+  {
+    "year": 2014,
+    "country": "Greece",
+    "active-breweries": 20,
+    "volume": 3845
+  },
+  {
+    "year": 2015,
+    "country": "Greece",
+    "active-breweries": 28,
+    "volume": 3825
+  },
+  {
+    "year": 2016,
+    "country": "Greece",
+    "active-breweries": 43,
+    "volume": 3882
+  },
+  {
+    "year": 2010,
+    "country": "Hungary",
+    "active-breweries": 0,
+    "volume": 6100
+  },
+  {
+    "year": 2011,
+    "country": "Hungary",
+    "active-breweries": 24,
+    "volume": 6249
+  },
+  {
+    "year": 2012,
+    "country": "Hungary",
+    "active-breweries": 50,
+    "volume": 5958
+  },
+  {
+    "year": 2013,
+    "country": "Hungary",
+    "active-breweries": 50,
+    "volume": 5704
+  },
+  {
+    "year": 2014,
+    "country": "Hungary",
+    "active-breweries": 50,
+    "volume": 5793
+  },
+  {
+    "year": 2015,
+    "country": "Hungary",
+    "active-breweries": 50,
+    "volume": 6541
+  },
+  {
+    "year": 2016,
+    "country": "Hungary",
+    "active-breweries": 50,
+    "volume": 6704
+  },
+  {
+    "year": 2010,
+    "country": "Ireland",
+    "active-breweries": 26,
+    "volume": 4814
+  },
+  {
+    "year": 2011,
+    "country": "Ireland",
+    "active-breweries": 26,
+    "volume": 4721
+  },
+  {
+    "year": 2012,
+    "country": "Ireland",
+    "active-breweries": 26,
+    "volume": 4677
+  },
+  {
+    "year": 2013,
+    "country": "Ireland",
+    "active-breweries": 30,
+    "volume": 4328
+  },
+  {
+    "year": 2014,
+    "country": "Ireland",
+    "active-breweries": 50,
+    "volume": 4481
+  },
+  {
+    "year": 2015,
+    "country": "Ireland",
+    "active-breweries": 50,
+    "volume": 4414
+  },
+  {
+    "year": 2016,
+    "country": "Ireland",
+    "active-breweries": 50,
+    "volume": 4576
+  },
+  {
+    "year": 2010,
+    "country": "Italy",
+    "active-breweries": 308,
+    "volume": 17249
+  },
+  {
+    "year": 2011,
+    "country": "Italy",
+    "active-breweries": 350,
+    "volume": 17715
+  },
+  {
+    "year": 2012,
+    "country": "Italy",
+    "active-breweries": 421,
+    "volume": 17458
+  },
+  {
+    "year": 2013,
+    "country": "Italy",
+    "active-breweries": 509,
+    "volume": 17544
+  },
+  {
+    "year": 2014,
+    "country": "Italy",
+    "active-breweries": 599,
+    "volume": 17755
+  },
+  {
+    "year": 2015,
+    "country": "Italy",
+    "active-breweries": 688,
+    "volume": 18914
+  },
+  {
+    "year": 2016,
+    "country": "Italy",
+    "active-breweries": 757,
+    "volume": 18873
+  },
+  {
+    "year": 2010,
+    "country": "Latvia",
+    "active-breweries": 15,
+    "volume": 1492
+  },
+  {
+    "year": 2011,
+    "country": "Latvia",
+    "active-breweries": 16,
+    "volume": 1626
+  },
+  {
+    "year": 2012,
+    "country": "Latvia",
+    "active-breweries": 16,
+    "volume": 1543
+  },
+  {
+    "year": 2013,
+    "country": "Latvia",
+    "active-breweries": 25,
+    "volume": 1545
+  },
+  {
+    "year": 2014,
+    "country": "Latvia",
+    "active-breweries": 29,
+    "volume": 1555
+  },
+  {
+    "year": 2015,
+    "country": "Latvia",
+    "active-breweries": 37,
+    "volume": 1523
+  },
+  {
+    "year": 2016,
+    "country": "Latvia",
+    "active-breweries": 41,
+    "volume": 1510
+  },
+  {
+    "year": 2010,
+    "country": "Lithuania",
+    "active-breweries": 41,
+    "volume": 2925
+  },
+  {
+    "year": 2011,
+    "country": "Lithuania",
+    "active-breweries": 73,
+    "volume": 2932
+  },
+  {
+    "year": 2012,
+    "country": "Lithuania",
+    "active-breweries": 73,
+    "volume": 2830
+  },
+  {
+    "year": 2013,
+    "country": "Lithuania",
+    "active-breweries": 73,
+    "volume": 2760
+  },
+  {
+    "year": 2014,
+    "country": "Lithuania",
+    "active-breweries": 75,
+    "volume": 2784
+  },
+  {
+    "year": 2015,
+    "country": "Lithuania",
+    "active-breweries": 75,
+    "volume": 2680
+  },
+  {
+    "year": 2016,
+    "country": "Lithuania",
+    "active-breweries": 72,
+    "volume": 2532
+  },
+  {
+    "year": 2010,
+    "country": "Luxenbourg",
+    "active-breweries": 7,
+    "volume": 317
+  },
+  {
+    "year": 2011,
+    "country": "Luxenbourg",
+    "active-breweries": 7,
+    "volume": 325
+  },
+  {
+    "year": 2012,
+    "country": "Luxenbourg",
+    "active-breweries": 7,
+    "volume": 319
+  },
+  {
+    "year": 2013,
+    "country": "Luxenbourg",
+    "active-breweries": 7,
+    "volume": 316
+  },
+  {
+    "year": 2014,
+    "country": "Luxenbourg",
+    "active-breweries": 7,
+    "volume": 308
+  },
+  {
+    "year": 2015,
+    "country": "Luxenbourg",
+    "active-breweries": 7,
+    "volume": 300
+  },
+  {
+    "year": 2016,
+    "country": "Luxenbourg",
+    "active-breweries": 7,
+    "volume": 312
+  },
+  {
+    "year": 2010,
+    "country": "Malta",
+    "active-breweries": 1,
+    "volume": 196
+  },
+  {
+    "year": 2011,
+    "country": "Malta",
+    "active-breweries": 1,
+    "volume": 189
+  },
+  {
+    "year": 2012,
+    "country": "Malta",
+    "active-breweries": 1,
+    "volume": 199
+  },
+  {
+    "year": 2013,
+    "country": "Malta",
+    "active-breweries": 1,
+    "volume": 202
+  },
+  {
+    "year": 2014,
+    "country": "Malta",
+    "active-breweries": 1,
+    "volume": 211
+  },
+  {
+    "year": 2015,
+    "country": "Malta",
+    "active-breweries": 2,
+    "volume": 218
+  },
+  {
+    "year": 2016,
+    "country": "Malta",
+    "active-breweries": 2,
+    "volume": 231
+  },
+  {
+    "year": 2010,
+    "country": "Netherlands",
+    "active-breweries": 0,
+    "volume": 11956
+  },
+  {
+    "year": 2011,
+    "country": "Netherlands",
+    "active-breweries": 125,
+    "volume": 11974
+  },
+  {
+    "year": 2012,
+    "country": "Netherlands",
+    "active-breweries": 165,
+    "volume": 12122
+  },
+  {
+    "year": 2013,
+    "country": "Netherlands",
+    "active-breweries": 165,
+    "volume": 11721
+  },
+  {
+    "year": 2014,
+    "country": "Netherlands",
+    "active-breweries": 263,
+    "volume": 11326
+  },
+  {
+    "year": 2015,
+    "country": "Netherlands",
+    "active-breweries": 320,
+    "volume": 11696
+  },
+  {
+    "year": 2016,
+    "country": "Netherlands",
+    "active-breweries": 400,
+    "volume": 11862
+  },
+  {
+    "year": 2010,
+    "country": "Poland",
+    "active-breweries": 103,
+    "volume": 34484
+  },
+  {
+    "year": 2011,
+    "country": "Poland",
+    "active-breweries": 117,
+    "volume": 36236
+  },
+  {
+    "year": 2012,
+    "country": "Poland",
+    "active-breweries": 132,
+    "volume": 37803
+  },
+  {
+    "year": 2013,
+    "country": "Poland",
+    "active-breweries": 155,
+    "volume": 37388
+  },
+  {
+    "year": 2014,
+    "country": "Poland",
+    "active-breweries": 133,
+    "volume": 37644
+  },
+  {
+    "year": 2015,
+    "country": "Poland",
+    "active-breweries": 150,
+    "volume": 37706
+  },
+  {
+    "year": 2016,
+    "country": "Poland",
+    "active-breweries": 210,
+    "volume": 37903
+  },
+  {
+    "year": 2010,
+    "country": "Portugal",
+    "active-breweries": 7,
+    "volume": 5900
+  },
+  {
+    "year": 2011,
+    "country": "Portugal",
+    "active-breweries": 7,
+    "volume": 5320
+  },
+  {
+    "year": 2012,
+    "country": "Portugal",
+    "active-breweries": 9,
+    "volume": 4927
+  },
+  {
+    "year": 2013,
+    "country": "Portugal",
+    "active-breweries": 18,
+    "volume": 4937
+  },
+  {
+    "year": 2014,
+    "country": "Portugal",
+    "active-breweries": 22,
+    "volume": 4764
+  },
+  {
+    "year": 2015,
+    "country": "Portugal",
+    "active-breweries": 30,
+    "volume": 4741
+  },
+  {
+    "year": 2016,
+    "country": "Portugal",
+    "active-breweries": 34,
+    "volume": 4891
+  },
+  {
+    "year": 2010,
+    "country": "Romania",
+    "active-breweries": 18,
+    "volume": 17000
+  },
+  {
+    "year": 2011,
+    "country": "Romania",
+    "active-breweries": 17,
+    "volume": 17000
+  },
+  {
+    "year": 2012,
+    "country": "Romania",
+    "active-breweries": 17,
+    "volume": 18201
+  },
+  {
+    "year": 2013,
+    "country": "Romania",
+    "active-breweries": 18,
+    "volume": 16300
+  },
+  {
+    "year": 2014,
+    "country": "Romania",
+    "active-breweries": 22,
+    "volume": 14900
+  },
+  {
+    "year": 2015,
+    "country": "Romania",
+    "active-breweries": 30,
+    "volume": 15800
+  },
+  {
+    "year": 2016,
+    "country": "Romania",
+    "active-breweries": 34,
+    "volume": 15800
+  },
+  {
+    "year": 2010,
+    "country": "Slovakia",
+    "active-breweries": 19,
+    "volume": 3609
+  },
+  {
+    "year": 2011,
+    "country": "Slovakia",
+    "active-breweries": 25,
+    "volume": 3997
+  },
+  {
+    "year": 2012,
+    "country": "Slovakia",
+    "active-breweries": 30,
+    "volume": 4141
+  },
+  {
+    "year": 2013,
+    "country": "Slovakia",
+    "active-breweries": 38,
+    "volume": 3874
+  },
+  {
+    "year": 2014,
+    "country": "Slovakia",
+    "active-breweries": 44,
+    "volume": 3720
+  },
+  {
+    "year": 2015,
+    "country": "Slovakia",
+    "active-breweries": 60,
+    "volume": 3959
+  },
+  {
+    "year": 2016,
+    "country": "Slovakia",
+    "active-breweries": 70,
+    "volume": 3970
+  },
+  {
+    "year": 2010,
+    "country": "Slovenia",
+    "active-breweries": 22,
+    "volume": 1663
+  },
+  {
+    "year": 2011,
+    "country": "Slovenia",
+    "active-breweries": 22,
+    "volume": 1672
+  },
+  {
+    "year": 2012,
+    "country": "Slovenia",
+    "active-breweries": 22,
+    "volume": 1520
+  },
+  {
+    "year": 2013,
+    "country": "Slovenia",
+    "active-breweries": 30,
+    "volume": 1562
+  },
+  {
+    "year": 2014,
+    "country": "Slovenia",
+    "active-breweries": 51,
+    "volume": 1615
+  },
+  {
+    "year": 2015,
+    "country": "Slovenia",
+    "active-breweries": 55,
+    "volume": 1583
+  },
+  {
+    "year": 2016,
+    "country": "Slovenia",
+    "active-breweries": 62,
+    "volume": 1635
+  },
+  {
+    "year": 2010,
+    "country": "Spain",
+    "active-breweries": 65,
+    "volume": 35199
+  },
+  {
+    "year": 2011,
+    "country": "Spain",
+    "active-breweries": 88,
+    "volume": 35233
+  },
+  {
+    "year": 2012,
+    "country": "Spain",
+    "active-breweries": 132,
+    "volume": 35106
+  },
+  {
+    "year": 2013,
+    "country": "Spain",
+    "active-breweries": 221,
+    "volume": 35212
+  },
+  {
+    "year": 2014,
+    "country": "Spain",
+    "active-breweries": 332,
+    "volume": 36302
+  },
+  {
+    "year": 2015,
+    "country": "Spain",
+    "active-breweries": 427,
+    "volume": 37528
+  },
+  {
+    "year": 2016,
+    "country": "Spain",
+    "active-breweries": 483,
+    "volume": 38634
+  },
+  {
+    "year": 2010,
+    "country": "Sweeden",
+    "active-breweries": 39,
+    "volume": 4720
+  },
+  {
+    "year": 2011,
+    "country": "Sweeden",
+    "active-breweries": 54,
+    "volume": 4796
+  },
+  {
+    "year": 2012,
+    "country": "Sweeden",
+    "active-breweries": 75,
+    "volume": 4660
+  },
+  {
+    "year": 2013,
+    "country": "Sweeden",
+    "active-breweries": 105,
+    "volume": 4713
+  },
+  {
+    "year": 2014,
+    "country": "Sweeden",
+    "active-breweries": 154,
+    "volume": 4636
+  },
+  {
+    "year": 2015,
+    "country": "Sweeden",
+    "active-breweries": 219,
+    "volume": 4620
+  },
+  {
+    "year": 2016,
+    "country": "Sweeden",
+    "active-breweries": 283,
+    "volume": 4781
+  },
+  {
+    "year": 2010,
+    "country": "United-Kingdom",
+    "active-breweries": 828,
+    "volume": 45873
+  },
+  {
+    "year": 2011,
+    "country": "United-Kingdom",
+    "active-breweries": 948,
+    "volume": 44844
+  },
+  {
+    "year": 2012,
+    "country": "United-Kingdom",
+    "active-breweries": 1300,
+    "volume": 42962
+  },
+  {
+    "year": 2013,
+    "country": "United-Kingdom",
+    "active-breweries": 1490,
+    "volume": 42422
+  },
+  {
+    "year": 2014,
+    "country": "United-Kingdom",
+    "active-breweries": 1700,
+    "volume": 43752
+  },
+  {
+    "year": 2015,
+    "country": "United-Kingdom",
+    "active-breweries": 1880,
+    "volume": 43762
+  },
+  {
+    "year": 2016,
+    "country": "United-Kingdom",
+    "active-breweries": 2250,
+    "volume": 43731
+  },
+  {
+    "year": 2010,
+    "country": "Norway",
+    "active-breweries": 30,
+    "volume": 2559
+  },
+  {
+    "year": 2011,
+    "country": "Norway",
+    "active-breweries": 34,
+    "volume": 2534
+  },
+  {
+    "year": 2012,
+    "country": "Norway",
+    "active-breweries": 41,
+    "volume": 2421
+  },
+  {
+    "year": 2013,
+    "country": "Norway",
+    "active-breweries": 52,
+    "volume": 2450
+  },
+  {
+    "year": 2014,
+    "country": "Norway",
+    "active-breweries": 75,
+    "volume": 2415
+  },
+  {
+    "year": 2015,
+    "country": "Norway",
+    "active-breweries": 101,
+    "volume": 2404
+  },
+  {
+    "year": 2016,
+    "country": "Norway",
+    "active-breweries": 128,
+    "volume": 2494
+  },
+  {
+    "year": 2010,
+    "country": "Switzerland",
+    "active-breweries": 328,
+    "volume": 4526
+  },
+  {
+    "year": 2011,
+    "country": "Switzerland",
+    "active-breweries": 360,
+    "volume": 4626
+  },
+  {
+    "year": 2012,
+    "country": "Switzerland",
+    "active-breweries": 375,
+    "volume": 4623
+  },
+  {
+    "year": 2013,
+    "country": "Switzerland",
+    "active-breweries": 409,
+    "volume": 4595
+  },
+  {
+    "year": 2014,
+    "country": "Switzerland",
+    "active-breweries": 483,
+    "volume": 4657
+  },
+  {
+    "year": 2015,
+    "country": "Switzerland",
+    "active-breweries": 623,
+    "volume": 4624
+  },
+  {
+    "year": 2016,
+    "country": "Switzerland",
+    "active-breweries": 753,
+    "volume": 4605
+  },
+  {
+    "year": 2010,
+    "country": "Turkey",
+    "active-breweries": 11,
+    "volume": 9215
+  },
+  {
+    "year": 2011,
+    "country": "Turkey",
+    "active-breweries": 11,
+    "volume": 9149
+  },
+  {
+    "year": 2012,
+    "country": "Turkey",
+    "active-breweries": 11,
+    "volume": 9988
+  },
+  {
+    "year": 2013,
+    "country": "Turkey",
+    "active-breweries": 12,
+    "volume": 9047
+  },
+  {
+    "year": 2014,
+    "country": "Turkey",
+    "active-breweries": 9,
+    "volume": 9680
+  },
+  {
+    "year": 2015,
+    "country": "Turkey",
+    "active-breweries": 12,
+    "volume": 9082
+  },
+  {
+    "year": 2016,
+    "country": "Turkey",
+    "active-breweries": 10,
+    "volume": 9003
+  }
+]
