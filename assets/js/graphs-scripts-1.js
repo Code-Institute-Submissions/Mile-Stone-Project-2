@@ -1,73 +1,88 @@
 queue()
-    .defer(d3.json, "data/projectData.json")
+    .defer(d3.csv, "data/project-two-data.csv")
     .await(makeGraphs);
+    
+function makeGraphs(error, beerData) {
+    var ndx = crossfilter(beerData);
 
-function makeGraphs(error, countryData) {
-    var ndx = crossfilter(countryData);
-
-    countryData.forEach(function(d) {
-        d.year = parseInt(d.year);
-        d.country = parseInt(d.country);
-        d.active_breweries = parseInt(d.active_breweries);
-        d.volume = parseInt(d.volume);
-       
+    beerData.forEach(function(d) {
+        d.brewery = parseInt(d.brewery);
+        d.beer_name = parseInt(d.beer_name);
+        d.brewery_location = parseInt(d.brewery_location);
+        d.pints_bottles_sold = parseInt(d.pints_bottles_sold)
+        d.beer_type = parseInt(d.beer_type)
     })
 
-    show_year_selector(ndx);
-    volume_by_country(ndx);
-    active_breweries_per_country(ndx);
-    
+    show_county_selector(ndx);
+    show_category_selector(ndx);
+    show_brewery_selector(ndx);
+    show_volume_by_county(ndx);
+    show_volume_by_category(ndx);
+
     dc.renderAll();
-}
+}    
 
-function show_year_selector(ndx) {
-    var dim = ndx.dimension(dc.pluck('year'));
-    var group = dim.group(dc.pluck('volume'));
+function show_county_selector(ndx) {
+    var dim = ndx.dimension(dc.pluck('brewery-location'));
+    var group = dim.group();
 
-    dc.selectMenu("#year-selector")
+    dc.selectMenu("#county-selector")
         .dimension(dim)
         .group(group);
 }
 
-function volume_by_country(ndx) {
-    var dim = ndx.dimension(dc.pluck('country')); //at bottom
-    var group = dim.group(dc.pluck('volume'));
+function show_category_selector(ndx) {
+    var dim = ndx.dimension(dc.pluck('beer-type'));
+    var group = dim.group();
 
-    dc.barChart("#volume-country")
-        .width(350)
-        .height(250)
-        .margins({ top: 10, right: 50, bottom: 30, left: 50 })
+    dc.selectMenu("#category-selector")
         .dimension(dim)
-        .group(group)
-        .transitionDuration(500)
-        .x(d3.scale.ordinal())
-        .xUnits(dc.units.ordinal)
-        .xAxisLabel("Country")
-        .yAxisLabel("Volume")
-        .yAxis().ticks(20);
-}      
-
-
-function active_breweries_per_country(ndx) {
-    var dim = ndx.dimension(dc.pluck('country')); //at bottom
-    var group = dim.group(dc.pluck('active-breweries'));
-
-    dc.barChart("#active-breweries-eu")
-        .width(350)
-        .height(250)
-        .margins({ top: 10, right: 50, bottom: 30, left: 50 })
-        .dimension(dim)
-        .group(group)
-        .transitionDuration(500)
-        .x(d3.scale.ordinal())
-        .xUnits(dc.units.ordinal)
-        .xAxisLabel("Country")
-        .yAxisLabel("Active Breweries")
-        .yAxis().ticks(20);
+        .group(group);
 }
 
+//does this need a custom reduce?
+function show_brewery_selector(ndx) {
+    var dim = ndx.dimension(dc.pluck('brewery'));
+    var group = dim.group();
 
+    dc.selectMenu("#brewery-selector")
+        .dimension(dim)
+        .group(group);
+}
 
+function show_volume_by_category(ndx) {
+    var dim = ndx.dimension(dc.pluck('brewery-location')); //at bottom
+    var group = dim.group().reduceSum(dc.pluck('pints-bottles-sold'));
 
+    dc.barChart("#volume-county")
+        .width(500)
+        .height(250)
+        .margins({ top: 10, right: 50, bottom: 30, left: 50 })
+        .dimension(dim)
+        .group(group)
+        .transitionDuration(500)
+        .x(d3.scale.ordinal())
+        .xUnits(dc.units.ordinal)
+        .xAxisLabel("Location")
+        .yAxisLabel("Volume")
+        .yAxis().ticks(10);
+}
+//var total_spend_per_person = name_dim.group().reduceSum(dc.pluck('spend'));
 
+function show_volume_by_county(ndx) {
+    var dim = ndx.dimension(dc.pluck('beer-type')); //at bottom
+    var group = dim.group().reduceSum(dc.pluck('pints-bottles-sold'));
 
+    dc.barChart("#category-split")
+        .width(500)
+        .height(250)
+        .margins({ top: 10, right: 50, bottom: 30, left: 50 })
+        .dimension(dim)
+        .group(group)
+        .transitionDuration(500)
+        .x(d3.scale.ordinal())
+        .xUnits(dc.units.ordinal)
+        .xAxisLabel("Category")
+        .yAxisLabel("Volume")
+        .yAxis().ticks(10);
+}
