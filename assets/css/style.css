@@ -101,6 +101,11 @@ ul {
 .graph {
     margin-left: auto;
     margin-right: auto;
+    padding: 0px;
+}
+
+.chart-width {
+    width: 50%;
 }
 
 /*-- Media Queries --*/

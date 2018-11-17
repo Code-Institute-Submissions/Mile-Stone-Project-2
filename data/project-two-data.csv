@@ -1,4 +1,4 @@
-brewery,beer-name,brewery-location,pints-bottles-sold,beer-type
+brewery-name,beer-name,brewery-location,pints-bottles-sold,beer-type
 Abbeydale,Moonshine,Yorkshire,1297,cask
 Acorn ,Barnsley-Bitter,Yorkshire,1598.5,cask
 Adnams,Longboat,Suffolk,139,cask
@@ -9,9 +9,9 @@ Adnams,Ghost-Ship,Suffolk,629,cask
 American,PA,unkown,142,cask
 Fyne,Avalanche,Scotland,274,cask
 Bays,Bays-Gold,Devon,509,cask
-Black_Sheep,Best-Bitter,Yorkshire,576.5,cask
+Black-Sheep,Best-Bitter,Yorkshire,576.5,cask
 Great-Yorkshire-Brewery,Blackout,Yorkshire,415,cask
-Brains,Caf�-Pheonix,Wales,470.5,cask
+Brains,Cafe-Pheonix,Wales,470.5,cask
 Purity,Bunny-Hop,Midlands,405.5,cask
 Great-Heck,Christopher,Yorkshire,277,cask
 BAD-Co,Confortably-Numb,Yorkshire,275,cask
@@ -114,7 +114,7 @@ Amstel,Amstel-Lager,Amsterdam,20140.5,lager
 Becks,Becks-Vier,Germany,1226.5,lager
 Camden,Hells,London,1404,lager
 Carling,Carling-Black-Label,Staffordshire,52445,lager
-Guiness,HopHouse-13,Dublin,7017.5,lager
+Guiness,Hop-House,Dublin,7017.5,lager
 Leeds,Leodis,Yorkshire,4693.5,lager
 Peroni,Peroni-Nastro-Az,Italy,31473.5,lager
 Urquell,Urquell-Pilsner,Czcech,358,lager
