@@ -5,14 +5,6 @@ queue()
 function makeGraphs(error, beerData) {
     var ndx = crossfilter(beerData);
 
-    //beerData.forEach(function(d) {
-        
-        //d.beer_name = parseInt(d.beer_name);
-        //d.brewery_location = parseInt(d.brewery_location);
-        //d.pints_bottles_sold = parseInt(d.pints_bottles_sold)
-        //d.beer_type = parseInt(d.beer_type)
-    //})
-
     show_county_selector(ndx);
     show_category_selector(ndx);
     show_brewery_selector(ndx);
@@ -57,7 +49,7 @@ function show_volume_by_category(ndx) {
     var group = dim.group().reduceSum(dc.pluck('pints-bottles-sold'));
 
     dc.barChart("#volume-county")
-        .width(500)
+        .width(1000)
         .height(250)
         .margins({ top: 10, right: 50, bottom: 30, left: 50 })
         .dimension(dim)
@@ -77,7 +69,7 @@ function show_volume_by_brewery(ndx) {
     var group = dim.group().reduceSum(dc.pluck('pints-bottles-sold'));
 
     dc.barChart("#volume-by-brewery")
-        .width(500)
+        .width(1000)
         .height(250)
         .margins({ top: 10, right: 50, bottom: 30, left: 50 })
         .dimension(dim)
@@ -87,6 +79,7 @@ function show_volume_by_brewery(ndx) {
         .xUnits(dc.units.ordinal)
         .xAxisLabel("Brewery")
         .yAxisLabel("Volume")
+        .xAxis(d3.svg.axis())
         .yAxis().ticks(10);
 }
 
@@ -95,7 +88,7 @@ function show_volume_by_county(ndx) {
     var group = dim.group().reduceSum(dc.pluck('pints-bottles-sold'));
 
     dc.barChart("#category-split")
-        .width(500)
+        .width(1000)
         .height(250)
         .margins({ top: 10, right: 50, bottom: 30, left: 50 })
         .dimension(dim)
@@ -105,6 +98,7 @@ function show_volume_by_county(ndx) {
         .xUnits(dc.units.ordinal)
         .xAxisLabel("Category")
         .yAxisLabel("Volume")
+        .xAxis(d3.svg.axis())
         .yAxis().ticks(10);
 }
 
