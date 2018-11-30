@@ -9,6 +9,7 @@ body {
 a {
     width: 50%;
     text-align: center;
+    text-decoration: none;
 }
 
 .navbar-inverse .navbar-toggle {
@@ -125,6 +126,7 @@ ul {
 h1 {
     text-align: center;
     text-decoration: underline;
+    color: #d4ac0d;
 }
 
 #button {
@@ -165,16 +167,19 @@ h1 {
     text-align: center;
     text-decoration: underline;
     color: #36454f;
+    font-family: "Dosis";
 }
 
 h4 {
     text-decoration: underline;
     font-weight: bold;
     color: #36454f;
+    font-family: "Dosis";
 }
 
 .directory-wrapper {
     width: 40%;
+    display: inline-block;
 }
 
 .brewery-directory {
@@ -184,15 +189,12 @@ h4 {
     color: #d4ac0d;
     width: 100%;
     border: solid #d4ac0d 2px;
-    margin-left: 60px;
+    margin-left: 110px;
     margin-top: 30px;
     border-radius: 30px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
-h3 {
-    text-align: center;
-}
 
 .brewery-directory a {
     color: #d4ac0d;
@@ -203,13 +205,15 @@ h3 {
 #brewery-info li {
     overflow: hidden;
 }
+
 .content {
     display: none;
 }
 
 .directory-headers {
-    text-align: left;
+    text-align: center;
     color: #d4ac0d;
+    pointer: auto;
 }
 
 /*-- Media Queries --*/
@@ -223,5 +227,12 @@ h3 {
         border: 1px solid #d4ac0d;
         border-radius: 50%;
         width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .directory-wrapper {
+        width: 80%;
+        display: block;
     }
 }
