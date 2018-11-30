@@ -1,3 +1,4 @@
+	//below is code for random fact generator.
 	var beerfact = []
 	beerfact[0] = "beer makes me happy";
 	beerfact[1] = "beer makes me wee a lot";
@@ -33,7 +34,15 @@
 	beerfact[32] = "Brewers began adding hops to beer in the 9th century AD. Today, nearly all beer is brewed with hops, which adds a zesty, bitter flavor to beer and acts as a preservative.";
 
 	function beerFact() {
-	    var randomBeerFact = Math.floor(Math.random() * (beerfact.length));
-	    document.getElementById('fact-here').innerHTML = beerfact[randomBeerFact];
+		var randomBeerFact = Math.floor(Math.random() * (beerfact.length));
+		document.getElementById('fact-here').innerHTML = beerfact[randomBeerFact];
 	}
-	
+
+	//below code for drop boxes for directory
+
+	$(document).ready(function() {
+            $('#brewery-info .head').click(function(e) {
+                e.preventDefault();
+                $(this).closest('li').find('.content').not(':animated').slideToggle();
+            });
+        });

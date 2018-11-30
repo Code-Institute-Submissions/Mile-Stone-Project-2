@@ -173,21 +173,42 @@ h4 {
     color: #36454f;
 }
 
+.directory-wrapper {
+    width: 40%;
+}
+
 .brewery-directory {
     text-align: center;
     font-family: "Dosis";
     font-size: 20px;
     color: #d4ac0d;
-    width: 40%;
+    width: 100%;
     border: solid #d4ac0d 2px;
     margin-left: 60px;
     margin-top: 30px;
-    /*background: rgba(0, 0, 0, 0.1);*/
     border-radius: 30px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
+h3 {
+    text-align: center;
+}
+
 .brewery-directory a {
+    color: #d4ac0d;
+}
+
+/*-- drop stuff for directory --*/
+
+#brewery-info li {
+    overflow: hidden;
+}
+.content {
+    display: none;
+}
+
+.directory-headers {
+    text-align: left;
     color: #d4ac0d;
 }
 
@@ -202,15 +223,5 @@ h4 {
         border: 1px solid #d4ac0d;
         border-radius: 50%;
         width: 90%;
-    }
-}
-
-@media (max-width: 768px) {
-    .brewery-directory {
-        width: 80%;
-        border: solid #d4ac0d 2px;
-        margin-left: 50px;
-        margin-top: 30px;
-        border-radius: 30px;
     }
 }
