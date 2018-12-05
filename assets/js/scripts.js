@@ -1,4 +1,5 @@
-	//below is code for random fact generator.
+	//below is code and data for random fact generator.
+	
 	var beerfact = []
 	beerfact[0] = "beer makes me happy";
 	beerfact[1] = "beer makes me wee a lot";
@@ -38,7 +39,7 @@
 		document.getElementById('fact-here').innerHTML = beerfact[randomBeerFact];
 	}
 
-	//below code for drop boxes for directory
+	//below code for drop boxes for directory using jQuery
 
 	$(document).ready(function() {
             $('#brewery-info .head').click(function(e) {
