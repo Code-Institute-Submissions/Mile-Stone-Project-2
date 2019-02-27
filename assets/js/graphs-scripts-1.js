@@ -57,6 +57,7 @@ function show_volume_by_category(ndx) {
         .xUnits(dc.units.ordinal)
         .xAxisLabel("Location")
         .yAxisLabel("Volume")
+        .elasticY(true)
         .xAxis(d3.svg.axis())
         .yAxis().ticks(10);
 }
@@ -76,6 +77,7 @@ function show_volume_by_county(ndx) {
         .xUnits(dc.units.ordinal)
         .xAxisLabel("Category")
         .yAxisLabel("Volume")
+        .elasticY(true)
         .xAxis(d3.svg.axis())
         .yAxis().ticks(10);
 }

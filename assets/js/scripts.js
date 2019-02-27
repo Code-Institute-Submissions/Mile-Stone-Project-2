@@ -35,7 +35,7 @@
 	beerfact[32] = "Brewers began adding hops to beer in the 9th century AD. Today, nearly all beer is brewed with hops, which adds a zesty, bitter flavor to beer and acts as a preservative.";
 
 	function beerFact() {
-		var randomBeerFact = Math.floor(Math.random() * (beerfact.length));
+		var randomBeerFact = Math.floor(Math.random() * (beerfact.length - 1));
 		document.getElementById('fact-here').innerHTML = beerfact[randomBeerFact];
 	}
 
