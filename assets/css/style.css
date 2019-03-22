@@ -88,10 +88,8 @@ ul {
 /*-- data dash board --*/
 
 .graph-container {
-    width: 90%;
+    width: 80%;
     padding: 0px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .h3,
@@ -112,27 +110,31 @@ h3 {
     font-family: "Dosis";
     color: #d4ac0d;
     text-decoration: underline;
-    margin-left: 280px;
+    text-align: center;
 }
 
 .graph {
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
     padding: 0px;
 }
 
-.chart-width {
-    width: 50%;
+#county-selector {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.pie-chart {
-    margin-left: 180px;
-    margin-bottom: 50px;
+#category-percentage {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
 }
 
-div.dc-chart {
+#volume-county {
     margin-left: auto;
     right: auto;
+    float: none;
 }
 
 #volume-county .x text {

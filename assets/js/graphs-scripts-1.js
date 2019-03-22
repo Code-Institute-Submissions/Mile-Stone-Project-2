@@ -45,7 +45,7 @@ function show_brewery_selector(ndx) {
 function show_volume_by_category(ndx) {
     var dim = ndx.dimension(dc.pluck('brewery-location')); //at bottom
     var group = dim.group().reduceSum(dc.pluck('pints-bottles-sold'));
-    
+
     dc.barChart("#volume-county")
         .width(1000)
         .height(250)
@@ -86,9 +86,10 @@ function pie_chart_category(ndx) {
     var dim = ndx.dimension(dc.pluck('beer-type'));
     var group = dim.group().reduceSum(dc.pluck('pints-bottles-sold'));
     dc.pieChart('#category-percentage')
+        .width(700)
         .height(360)
         .radius(180)
-        .legend(dc.legend().x(500).y(30).itemHeight(15).gap(5))
+        .legend(dc.legend().x(50).y(30).itemHeight(15).gap(5))
         .transitionDuration(1500)
         .dimension(dim)
         .group(group);

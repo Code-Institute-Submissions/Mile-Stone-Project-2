@@ -36,7 +36,7 @@
             <div class="collapse navbar-collapse navHeaderCollapse ">
                 <ul class="nav navbar-nav">
                     <li class="page-links"><a href="index.html">Home</a></li>
-                    <li class="page-links"><a href="dash-board.html">European Stats</a></li>
+                    <li class="page-links"><a href="dash-board.html">Stats</a></li>
                     <li class="page-links"><a href="fact-generator.html">Fact Generator</a></li>
                     <li class="page-links"><a href="brewery-directory.html">Brewery Directory</a></li>
                 </ul>
@@ -48,41 +48,43 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-4 col-xs-12">
-                <div id="county-selector"><h3>Select County</h3></div>
+                <div id="county-selector">
+                    <h3>Select County</h3>
+                </div>
             </div>
             <div class="col-md-4 col-xs-12">
-                <div id="category-selector"><h3>Select Category</h3></div>
+                <div id="category-selector">
+                    <h3>Select Category</h3>
+                </div>
             </div>
             <div class="col-md-4 col-xs-12">
-                <div id="brewery-selector"><h3>Select Brewery</h3></div>
+                <div id="brewery-selector">
+                    <h3>Select Brewery</h3>
+                </div>
             </div>
         </div>
     </div>
-
 
     <!-- below are the divs for the graphs -->
     <div class="container-fluid graph-container">
         <div class="row">
-            <div class="col-xs-12 col-md-12 graph">
+            <div class="col-md-12 graph">
                 <h3 class="graph-title">Volume by County.</h3>
                 <br>
                 <div id="volume-county"></div>
             </div>
-            <div class="col-xs-12 col-md-12 graph">
+            <div class="col-md-12 graph">
                 <h3 class="graph-title">Category Split</h3>
                 <br>
                 <div id="category-split"></div>
             </div>
-            <div class="col-xs-12 col-md-12 graph pie-chart">
+            <div class="col-md-12 graph pie-chart">
                 <h3 class="pie-chat-graph-title">Category Percenatge</h3>
                 <br>
-                <div class="chart-width" id="category-percentage"></div>
+                <div id="category-percentage"></div>
             </div>
         </div>
     </div>
-
-
-
 
     <script type="text/javascript" src="assets/js/graphs-scripts-1.js"></script>
     <script type="text/javascript" src="assets/js/scripts.js"></script>
