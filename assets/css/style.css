@@ -87,16 +87,28 @@ ul {
 
 /*-- data dash board --*/
 
+div.dc-chart {
+    float: none;
+}
+
 .graph-container {
     width: 80%;
     padding: 0px;
 }
 
-.h3,
 h3 {
     font-size: 24px;
     font-family: "Dosis";
     color: #d4ac0d;
+    text-align: center;
+    text-decoration: underline;
+}
+
+button, input, optgroup, select, textarea {
+font: inherit;
+color: inherit;
+margin-left: 30px;
+width: 80%;
 }
 
 .graph-title {
@@ -118,10 +130,10 @@ h3 {
     padding: 0px;
 }
 
-#county-selector {
-    float: none;
+.selection-boxes {
     margin-left: auto;
     margin-right: auto;
+    width: 70%;
 }
 
 #category-percentage {
@@ -306,4 +318,3 @@ h4 {
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
     }
 }
-

@@ -15,6 +15,7 @@ function makeGraphs(error, beerData) {
     dc.renderAll();
 }
 
+//below, slection boxes
 function show_county_selector(ndx) {
     var dim = ndx.dimension(dc.pluck('brewery-location'));
     var group = dim.group();
@@ -42,6 +43,7 @@ function show_brewery_selector(ndx) {
         .group(group);
 }
 
+//below, code for graph rendering
 function show_volume_by_category(ndx) {
     var dim = ndx.dimension(dc.pluck('brewery-location')); //at bottom
     var group = dim.group().reduceSum(dc.pluck('pints-bottles-sold'));
@@ -82,6 +84,7 @@ function show_volume_by_county(ndx) {
         .yAxis().ticks(10);
 }
 
+//Pie chart
 function pie_chart_category(ndx) {
     var dim = ndx.dimension(dc.pluck('beer-type'));
     var group = dim.group().reduceSum(dc.pluck('pints-bottles-sold'));
