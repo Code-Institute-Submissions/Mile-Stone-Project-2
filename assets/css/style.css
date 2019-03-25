@@ -104,11 +104,15 @@ h3 {
     text-decoration: underline;
 }
 
-button, input, optgroup, select, textarea {
-font: inherit;
-color: inherit;
-margin-left: 30px;
-width: 80%;
+button,
+input,
+optgroup,
+select,
+textarea {
+    font: inherit;
+    color: inherit;
+    margin-left: 30px;
+    width: 80%;
 }
 
 .graph-title {

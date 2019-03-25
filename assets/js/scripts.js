@@ -39,7 +39,7 @@
 		document.getElementById('fact-here').innerHTML = beerfact[randomBeerFact];
 	}
 
-	//below code for drop boxes for directory using jQuery
+	//below code for drop boxes for directory page using jQuery
 
 	$(document).ready(function() {
             $('#brewery-info .head').click(function(e) {

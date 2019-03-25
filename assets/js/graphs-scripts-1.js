@@ -2,6 +2,14 @@ queue()
     .defer(d3.csv, "data/project-two-data.csv")
     .await(makeGraphs);
 
+//Call the defer() method, and this takes two arguments.
+//The first is the format of the data that we want to load, in this case a CSV file.
+//The second argument is the path to the CSV file.
+
+//Call the await() method.
+//The await method() takes 1 argument, which is the name of a function 
+//that we want to call when the data is ready.
+
 function makeGraphs(error, beerData) {
     var ndx = crossfilter(beerData);
 
@@ -13,6 +21,7 @@ function makeGraphs(error, beerData) {
     pie_chart_category(ndx);
 
     dc.renderAll();
+//must be called or charts wont render.    
 }
 
 //below, slection boxes
